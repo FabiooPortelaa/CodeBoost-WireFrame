@@ -1,9 +1,10 @@
 :root {
   --Brand-Colors-pink: #f67acb;
+  --gray-colors-50: #e6ebf2;
   --Gray-Colors-100: #050110;
   --Gray-Colors-300: #393c40;
   --Gray-Colors-400: #5c6066;
+  --gray-colors-800: #f7f8fa;
   --white-color-text: #ffffffb2;
   --white: #ffffff;
-  --gray-colors-50: #e6ebf2;
 }
