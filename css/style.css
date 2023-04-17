@@ -46,7 +46,7 @@ header nav ul li:first-child header nav .btn-primary {
 }
 .s-hero .text p {
   margin-bottom: 5.6rem;
-  max-width: 488px;
+  max-width: 48.8rem;
   font-weight: 400;
   font-size: 1.8rem;
   line-height: 150%;
@@ -63,4 +63,64 @@ header nav ul li:first-child header nav .btn-primary {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.s-card-featured {
+  background: var(--Gray-Colors-100);
+  padding-top: 10.4rem;
+  padding-bottom: 12rem;
+}
+.s-card-features .main-area {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  padding-bottom: 13.5rem;
+}
+.s-card-featured .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.s-card-featured .title .center {
+  align-items: center;
+}
+.s-card-featured .title p {
+  margin-top: 0.8rem;
+}
+.s-card-featured p {
+  color: var(--white-color-text);
+}
+.s-card-featured .all-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4.8rem;
+}
+.s-card-featured .all-cards .card {
+  width: 100%;
+  max-width: 38.4rem;
+  height: 38.2rem;
+  background: rgba(28, 29, 31, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6.4rem;
+}
+.s-card-featured .all-cards .card.white {
+  background: var(--white);
+}
+.s-card-featured .all-cards .card.white h3 {
+  color: var(--Gray-Colors-100);
+}
+.s-card-featured .all-cards .card.white p {
+  color: var(--Gray-Colors-300);
+}
+.s-card-featured .all-cards .card .info {
+  margin-top: 4rem;
+  max-width: 28.8rem;
+}
+.s-card-featured .all-cards .card .info h3 {
+  text-align: center;
+}
+.s-card-featured .all-cards .card .info p {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-top: 8px;
+  line-height: 150%;
 }

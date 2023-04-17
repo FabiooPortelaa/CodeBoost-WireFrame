@@ -25,6 +25,10 @@ h3 {
   font-weight: 600;
   letter-spacing: -0.01em;
   color: var(--Brand-Colors-100);
+  transition: all 300ms ease;
+}
+.btn-primary:hover {
+  background-color: #af28d1;
 }
 .menu-item {
   display: inline-block;
@@ -36,4 +40,9 @@ h3 {
   font-size: 1.5rem;
   line-height: 105%;
   letter-spacing: -0.01em;
+  transition: all 300ms ease;
+}
+.menu-item:hover {
+  background-color: #19140d;
+  color: #f7f8fa;
 }
