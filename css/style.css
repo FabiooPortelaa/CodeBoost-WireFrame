@@ -69,8 +69,8 @@ header nav ul li:first-child header nav .btn-primary {
   padding-top: 10.4rem;
   padding-bottom: 12rem;
 }
-.s-card-features .main-area {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+.s-card-featured .main-area {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
   padding-bottom: 13.5rem;
 }
 .s-card-featured .title {
