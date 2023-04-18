@@ -65,7 +65,7 @@ header nav ul li:first-child header nav .btn-primary {
   justify-content: center;
 }
 .s-card-featured {
-  background: var(--Gray-Colors-100);
+  background: var(--Gray-colors-100);
   padding-top: 10.4rem;
   padding-bottom: 12rem;
 }
@@ -106,10 +106,10 @@ header nav ul li:first-child header nav .btn-primary {
   background: var(--white);
 }
 .s-card-featured .all-cards .card.white h3 {
-  color: var(--Gray-Colors-100);
+  color: var(--Gray-colors-100);
 }
 .s-card-featured .all-cards .card.white p {
-  color: var(--Gray-Colors-300);
+  color: var(--Gray-colors-300);
 }
 .s-card-featured .all-cards .card .info {
   margin-top: 4rem;
@@ -121,6 +121,28 @@ header nav ul li:first-child header nav .btn-primary {
 .s-card-featured .all-cards .card .info p {
   text-align: center;
   font-size: 1.6rem;
-  margin-top: 8px;
+  margin-top: 0.8rem;
   line-height: 150%;
+}
+.s-card-featured .second-area {
+  margin-top: 11.2rem;
+}
+.s-card-featured .second-area .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 6.4rem;
+}
+.s-card-featured .second-area .all-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
+.s-card-featured .second-area .all-images .image {
+  width: 17.6rem;
+  height: 11.2rem;
+  background-color: var(--Gray-colors-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
