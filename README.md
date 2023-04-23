@@ -2,7 +2,7 @@
 
 Projeto criado pra apresentar técnicas de Flexbox pelo professor <a href="https://willmoreira.com.br/">Will Moreira</a> mentor do curso <a href="https://codeboost.com.br/">Codeboost</a>.
 
-<img src="wireframe" alt="Foto do projeto">
+<img src="Wireframe.jpg" alt="Foto do projeto">
 
 # Tecnologias Usadas 🚀
 
