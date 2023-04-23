@@ -1,155 +1,260 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- fonts google -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Sora:wght@400;600&display=swap"
       rel="stylesheet"
     />
 
-    <!-- links css -->
-    <link
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="/css/grid.css" />
-    <link rel="stylesheet" href="/css/paterns.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="/css/variables.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="/css/responsivel.css" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <title>WireFrameF CodeBoost</title>
+    <link rel="stylesheet" href="./css/variables.css" />
+    <link rel="stylesheet" href="./css/grid.css" />
+    <link rel="stylesheet" href="./css/patterns.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+
+    <title>Projeto - Wireframe</title>
   </head>
   <body>
     <header>
       <div class="container">
-        <a href="index.html" class="logo">
-          <img src="assets/img/logo.svg" alt="logo do site" />
+        <a href="./" class="logo">
+          <img src="img/logo.svg" alt="Logo" />
         </a>
         <nav>
           <ul>
-            <li>
-              <a href="" class="menu-item">Menu item</a>
-            </li>
-            <li>
-              <a href="" class="menu-item">Menu item</a>
-            </li>
-            <li>
-              <a href="" class="menu-item">Menu item</a>
-            </li>
-            <li>
-              <a href="" class="menu-item">Menu item</a>
-            </li>
+            <li><a href="#" class="menu-item">Menu Item</a></li>
+            <li><a href="#" class="menu-item">Menu Item</a></li>
+            <li><a href="#" class="menu-item">Menu Item</a></li>
+            <li><a href="#" class="menu-item">Menu Item</a></li>
           </ul>
           <button class="btn-primary">Call to action</button>
         </nav>
-          <button class="menu-item menu-mobile" type="button">Menu Mobile</button>
-          </ul>
+        <button class="menu-item menu-mobile">Menu mobile</button>
+      </div>
     </header>
-    <section class="s-hero">
+
+    <section
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+      class="s-hero"
+    >
       <div class="container">
         <div class="text">
-          <h1>Front-end descomplicado 
-            e direto ao ponto!</h1>
-            <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
-            <a href="" class="btn-primary">Fazer parte da lista de espera</a>
+          <h1>Front-end descomplicado e direto ao ponto!</h1>
+          <p>
+            Aprenda a desenvolver interfaces modernas e de alta qualidade com
+            quem está na área atuando com projetos altamente renomados.
+          </p>
+          <a href="#" class="btn-primary">Fazer parte da lista de espera</a>
         </div>
         <div class="image">
-          <img src="assets/img/img-hero.svg" alt="imagem hero">
+          <img src="./img/image-vector.svg" alt="Image hero" />
         </div>
       </div>
-
     </section>
-    <section class="s-card-featured">
+
+    <section
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      class="s-card-featured"
+    >
       <div class="container">
         <div class="main-area">
-          <div class="title">
+          <div class="title center">
             <h2>Título</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
           <div class="all-cards">
-            <div class="card">
+            <div
+              data-aos="fade-up"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+              class="card"
+            >
               <div class="icon">
-                <img src="assets/img/icon-circle.svg" alt=" icon circle">
+                <img src="img/ico-icon-circle.svg" alt="Icon" />
               </div>
               <div class="info">
                 <h3>Título</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam nunc orci, eleifend eu porta eu, viverra non metus.
+                </p>
               </div>
             </div>
-            <div class="card white">
+            <div data-aos="fade-up" data-aos-duration="1500" class="card white">
               <div class="icon">
-                <img src="assets/img/icon-circle.svg" alt=" icon circle">
+                <img src="img/ico-icon-circle.svg" alt="Icon" />
               </div>
               <div class="info">
                 <h3>Título</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam nunc orci, eleifend eu porta eu, viverra non metus.
+                </p>
               </div>
             </div>
-            <div class="card">
+            <div data-aos="fade-up" data-aos-duration="1500" class="card">
               <div class="icon">
-                <img src="assets/img/icon-circle.svg" alt=" icon circle">
+                <img src="img/ico-icon-circle.svg" alt="Icon" />
               </div>
               <div class="info">
                 <h3>Título</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nunc orci, eleifend eu porta eu, viverra non metus. </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam nunc orci, eleifend eu porta eu, viverra non metus.
+                </p>
               </div>
             </div>
           </div>
         </div>
-        <div class="second-area">
+        <div class="section-area">
           <div class="top">
             <div class="title">
-              <h2>Titulo</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h2>Título</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <a class="btn-primary" href="">Call to action</a>
+            <a href="" class="btn-primary">call to action</a>
           </div>
           <div class="all-images">
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
             <div class="image">
-              <img src="assets/img/1thumb.svg" alt="thumbnails">
+              <img src="img/thumb.svg" alt="thumb" />
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section class="s-newsletter">
+      <div class="container">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          class="faca-parte"
+        >
+          <h2>Front-end descomplicado e direto ao ponto!</h2>
+          <p>
+            Aprenda a desenvolver interfaces modernas e de alta qualidade com
+            quem está na área atuando com projetos altamente renomados.
+          </p>
+          <a href="#" class="btn-primary">Fazer parte da lista de espera</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <main>
+          <div class="area-left">
+            <img src="./img/logo-footer.svg" alt="Logo footer" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
+              nunc orci, eleifend eu porta eu, viverra.
+            </p>
+          </div>
+          <nav>
+            <div class="item">
+              <h6>Lista de páginas</h6>
+              <ul>
+                <li><a href="#">Texto link 01</a></li>
+                <li><a href="#">Texto link 02</a></li>
+                <li><a href="#">Texto link 03</a></li>
+                <li><a href="#">Texto link 04</a></li>
+              </ul>
+            </div>
+            <div class="item">
+              <h6>Soluções</h6>
+              <ul>
+                <li><a href="#">Texto link 01</a></li>
+                <li><a href="#">Texto link 02</a></li>
+              </ul>
+            </div>
+            <div class="item">
+              <h6>Nossas redes sociais</h6>
+              <ul>
+                <li>
+                  <a
+                    href="https://www.instagram.com/fabioportelaa/"
+                    target="_blank"
+                  >
+                    <img src="./img/instagram.svg" alt="Instagram" />
+                    <span>Instagram</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/fabio-portela-70a78b255/  "
+                    target="_blank"
+                  >
+                    <img src="./img/linkedln.svg" alt="Linkedln" />
+                    <span>Linkedln</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/FabiooPortelaa" target="_blank">
+                    <img src="./img/github.svg" alt="github" />
+                    <span>GitHub</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </main>
+        <div class="copy">
+          <p>2023 © Todos os direitos reservados. <strong>Codeboost</strong></p>
+          <img src="./img/boost.svg" alt="Codeboost" />
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://unpkg.com/aos@2.3.1/dist/aos.js"
+      target="_blank"
+    ></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
